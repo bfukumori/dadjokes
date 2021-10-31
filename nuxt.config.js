@@ -42,5 +42,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  // Deploy to GitHub Pages
+  target: 'static',
+  router: {
+    base: '/dadjokes/'
   }
 }
